@@ -8,7 +8,7 @@
 #include <ctime>
 #include "lru_cache.h"
 
-namespace cil {
+namespace pcm {
 
 namespace {
 
@@ -106,6 +106,6 @@ std::ostream& operator<<(std::ostream& os, const expiring_lru_cache<Key, Value, 
     return os;
 };
 
-} // namespace cil
+} // namespace pcm
 
 #endif // __CACHE_EXPIRING_LRU_CACHE_H__

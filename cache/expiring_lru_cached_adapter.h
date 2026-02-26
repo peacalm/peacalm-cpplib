@@ -18,7 +18,7 @@
 #include "expiring_lru_cache.h"
 #include "lru_cache.h"
 
-namespace cil {
+namespace pcm {
 
 /// Getter is the origin data-fetcher type with key-value queries. Key and Value are key type and value type of Getter.
 /// Key must be comparable by operator "<" and "==". Getter must have thread-safe, no-exception-throwing "get" and
@@ -189,7 +189,7 @@ private:
     getter_type                                                                                         __getter;
 };
 
-} // namespace cil
+} // namespace pcm
 
 
 #endif

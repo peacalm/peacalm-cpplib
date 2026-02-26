@@ -11,7 +11,7 @@
 #include <memory>
 #include <unordered_map>
 
-namespace cil {
+namespace pcm {
 
 
 template<
@@ -154,6 +154,6 @@ std::ostream& operator<<(std::ostream& os, const lru_cache<Key, Value, Hash, Pre
 };
 
 
-} // namespace cil
+} // namespace pcm
 
 #endif //__CACHE_LRU_CACHE_H__
